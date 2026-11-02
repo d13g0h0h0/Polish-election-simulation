@@ -37,9 +37,9 @@ public class AuthService : IAuthService
         
         await _claimRepository.AddAsync(guid, Guid.Parse("00000000-0000-0000-0000-000000000003"), "Wybory 2019");
         await _claimRepository.AddAsync(guid, Guid.Parse("00000000-0000-0000-0000-000000000004"), "Wybory 2023");
-        await _methodRepository.AddAsync(guid, Guid.Empty, "Dhond't method");
+        await _methodRepository.AddAsync(guid, Guid.Empty, "D'Hondt method");
         await _methodRepository.AddAsync(guid, Guid.Parse("00000000-0000-0000-0000-000000000001"), "High-stakes method");
-        await _methodRepository.AddAsync(guid, Guid.Parse("00000000-0000-0000-0000-000000000002"), "Sainte-Lague method");
+        await _methodRepository.AddAsync(guid, Guid.Parse("00000000-0000-0000-0000-000000000002"), "Sainte-Laguë method");
 
     }
 
